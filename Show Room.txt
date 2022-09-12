@@ -1,0 +1,11 @@
+Car Showroom - Practice Exercises C#
+
+Requirements:
+Create a class "Car" with attributes "Car Series", "Color", "Brand", "Number of doors", "Price", "Is Available For Sell", "Created Date".
+
+It should have "GetCarSpecification" method that can must be overriden from child. A constructer that will have set all properties.
+
+Create some classes called "Benz", "Ferrari", "Ford", "Toyota", "Tesla", that are going to inheritance the properties of class "Car". Should override "GetCarSpecification" for each child classes, and the order of properties should be in Alphabetic Order. All childs objects will override "ToString" method, and will write to console, all properties and the name of the child class.
+
+Use this classes in Main, create 2 objects for each child. Print on screen information about the cars created, and if car is newer than 2020.
+Create a UnitTest that is going to test all the properties values, "GetCarSpecification", "ToString", and if car is newer that 2020.
