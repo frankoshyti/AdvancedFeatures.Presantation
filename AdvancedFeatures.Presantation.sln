@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{
 		Show Room.txt = Show Room.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFeatues.Interface", "AdvancedFeatues.Interface\AdvancedFeatues.Interface.csproj", "{B76670E6-B392-4686-8092-11E3DB589B5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{112EE0D3-E07A-4B6B-BE23-C503185E9AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{112EE0D3-E07A-4B6B-BE23-C503185E9AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{112EE0D3-E07A-4B6B-BE23-C503185E9AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76670E6-B392-4686-8092-11E3DB589B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76670E6-B392-4686-8092-11E3DB589B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76670E6-B392-4686-8092-11E3DB589B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76670E6-B392-4686-8092-11E3DB589B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
