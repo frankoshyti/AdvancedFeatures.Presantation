@@ -3,5 +3,7 @@
 internal interface IPolygon
 {
     // Method that need to be implemented
-    void CalculateArea(int a, int b);
+    void CalculateArea (int a, int b);
+
+    void DoubleCalculateArea (int a, int b);
 }

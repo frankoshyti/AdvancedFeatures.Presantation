@@ -59,7 +59,7 @@ public class Base
     //public abstract void AbstractMethod ();
 }
 
-public class Child : Base
+public sealed class Child : Base
 {
     public void MethodOne ()
     {
@@ -83,4 +83,9 @@ public class Child : Base
     //{
     //    throw new NotImplementedException();
     //}
+}
+
+public class Child2 : Base
+{
+
 }

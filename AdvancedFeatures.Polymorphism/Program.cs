@@ -6,7 +6,12 @@ internal class Program
     {
         var dog = new Dog();
         dog.Age = 2;
-        dog.Name = "Bali";
+        dog.Name = "Bali";  // set;
+
+        var dogName = dog.Name; // get;
+
+        dog.Name = "Cookie"; // set;
+        dogName = dog.Name; // get;
 
         //var dog = new Dog
         //{
