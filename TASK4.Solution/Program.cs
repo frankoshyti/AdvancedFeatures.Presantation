@@ -1,4 +1,4 @@
-﻿namespace Task4
+﻿namespace TASK4.Solution
 {
     internal class Program
     {
@@ -6,12 +6,12 @@
         {
             Animal[] array = new Animal[]
                {
-            new Dog(15, "Goff"),
-            new Cat(5, "pisika"),
-            new Dog(22, "Lesi"),
-            new Cat(11, "bob"),
-            new Dog(13, "bubi"),
-            new Cat(20, "Nana"),
+            new Dog(1, "Goff"),
+            new Cat(2, "pisika"),
+            new Dog(2, "Lesi"),
+            new Cat(1, "bob"),
+            new Dog(3, "bubi"),
+            new Cat(4, "Nana"),
 
                };
 
@@ -28,8 +28,8 @@
         public abstract class Animal
         {
 
-            public int _Age;
-            public string _name;
+            private int _Age;
+            private string _name;
 
             public Animal(int age, string name)
             {
